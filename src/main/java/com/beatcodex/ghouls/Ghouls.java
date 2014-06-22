@@ -11,7 +11,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 import com.beatcodex.ghouls.proxy.CommonProxy;
 import com.beatcodex.ghouls.reference.Reference;
-import com.beatcodex.ghouls.entity.ModEntities;
+import com.beatcodex.ghouls.init.ModEntities;
 import com.beatcodex.ghouls.handler.GhostHandler;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)

@@ -4,13 +4,10 @@ import java.awt.Color;
 
 public class Colors {
 	
-	public static int getGhostBackground(){
-		Color background = new Color(0xf9f9f9);
-		return (background.getRed() << 16) + (background.getGreen() << 8) + background.getBlue();
-	}
-	
-	public static int getGhostSpot(){
-		Color spot = new Color(0xd3d3d3);
-		return (spot.getRed() << 16) + (spot.getGreen() << 8) + spot.getBlue();
+	public static class Ghost {
+		
+		public static int EGG_BACKGROUND = (249 << 16) + (249 << 8) + 249;
+		public static int EGG_SPOT = (211 << 16) + (211 << 8) + 211;
+		
 	}
 }
