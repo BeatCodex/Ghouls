@@ -32,8 +32,6 @@ public class Ghouls {
 
 	@EventHandler
 	public void load(FMLInitializationEvent event) {
-
-		proxy.registerRenders();
 		
 		proxy.registerEventHandlers();
 		
