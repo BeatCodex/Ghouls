@@ -1,5 +1,6 @@
 package com.beatcodex.ghouls.init;
 
+import com.beatcodex.ghouls.Ghouls;
 import com.beatcodex.ghouls.entity.EntityBasicGhost;
 import com.beatcodex.ghouls.entity.EntityGhost;
 import com.beatcodex.ghouls.reference.Colors;
@@ -16,6 +17,8 @@ public class ModEntities {
 		RenderIds.Entity.ghost = EntityRegistry.findGlobalUniqueEntityId();
 		
 		EntityRegistry.registerGlobalEntityID(EntityBasicGhost.class, Names.Entity.GHOST, RenderIds.Entity.ghost, Colors.Ghost.EGG_BACKGROUND, Colors.Ghost.EGG_SPOT);
+		
+		EntityRegistry.registerModEntity(EntityBasicGhost.class, Names.Entity.GHOST, RenderIds.Entity.ghost, Ghouls.instance, 64, 1, true);
 
 	}
 }

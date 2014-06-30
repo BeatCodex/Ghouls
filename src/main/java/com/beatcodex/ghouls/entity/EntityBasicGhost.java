@@ -6,6 +6,7 @@ public class EntityBasicGhost extends EntityGhost {
 
 	public EntityBasicGhost(World par1World) {
 		super(par1World);
+		
 	}
 
 }

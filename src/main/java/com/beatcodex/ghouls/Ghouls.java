@@ -33,6 +33,8 @@ public class Ghouls {
 	@EventHandler
 	public void load(FMLInitializationEvent event) {
 		
+		proxy.registerRender();
+		
 		proxy.registerEventHandlers();
 		
 		ModEntities.init();

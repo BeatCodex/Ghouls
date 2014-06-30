@@ -6,6 +6,10 @@ import com.beatcodex.ghouls.handler.GhostHandler;
 
 public class CommonProxy {
 
+	public void registerRender(){
+		
+	}
+	
 	public void registerEventHandlers(){
 
 		MinecraftForge.EVENT_BUS.register(new GhostHandler());
